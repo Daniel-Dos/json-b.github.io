@@ -70,7 +70,6 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Getting started</a></li>
-                            <li><a href="users-guide.html">Users guide</a></li>
                             <li><a href="javadocs.html">JavaDocs</a></li>
                         </ul>
                     </li>
@@ -109,15 +108,14 @@
     <div class="container content-section">
         <div class="row">
             <div class="col-lg-12 text-left">
-                <h3>Download</h3>
+                <h3>Add Dependency</h3>
                 <p>
-                    You can download the latest version of JSON-B RI manually from
-                    <a href="https://oss.sonatype.org/content/repositories/snapshots/org/eclipse/persistence/jsonb-ri/1.0-SNAPSHOT">Version 1.0-SNAPSHOT</a>
-                    or add the following dependency to your pom if you use Maven:
+                    Eclipse Yasson is JSON-B reference implementation. Currently there are no versions released. To use it you have to build it from sources. Check it out from <a href="https://github.com/eclipse/yasson">here</a> and build using <code>./gradlew build</code> command.
+                    After thar you should add the following dependency to your pom.xml:
                 </p>
                 <pre><code class="xml">&lt;dependency&gt;
-    &lt;groupId&gt;<b>org.eclipse.persistence</b>&lt;/groupId&gt;
-    &lt;artifactId&gt;<b>jsonb-ri</b>&lt;/artifactId&gt;
+    &lt;groupId&gt;<b>org.eclipse</b>&lt;/groupId&gt;
+    &lt;artifactId&gt;<b>yasson</b>&lt;/artifactId&gt;
     &lt;version&gt;<b>1.0-SNAPSHOT</b>&lt;/version&gt;
 &lt;/dependency&gt;</code></pre>
             </div>
